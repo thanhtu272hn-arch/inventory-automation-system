@@ -1,28 +1,28 @@
-\# Businees Automation Dashboard
+\# Inventory Automation System
 
 
 
-A Businees Automation Dashboard built with Streamlit.
+A Streamlit-based inventory management and warehouse automation dashboard.
 
 
 
 \## Features
 
-\- Total Income
+\- Product CRUD (Create, Read, Update, Delete)
 
-\- Total Expense
+\- Stock In / Stock Out
 
-\- Net Profit
+\- Stock Movement History
 
-\- Profit Margin
+\- Low Stock Alerts
 
-\- Category Filter
+\- Supplier Dashboard
 
-\- Date Filter
+\- KPI Dashboard
 
-\- Expense Breakdown
+\- Search \& Filter
 
-\- Monthly Profit Trend
+\- Inventory Analytics Charts
 
 
 
@@ -30,13 +30,36 @@ A Businees Automation Dashboard built with Streamlit.
 
 \- Python
 
-\- Pandas
-
 \- Streamlit
 
+\- SQLite
+
+\- Pandas
 
 
-\## Run
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Inventory
+![Inventory](screenshots/inventory.png)
+
+### Stock Movement
+![Stock Movement](screenshots/stock-movement.png)
+
+### Supplier Dashboard
+![Supplier](screenshots/supplier.png)
+
+
+\## Run Locally
+
+```bash
+
+pip install -r requirements.txt
 
 streamlit run app.py
+
+```
 
